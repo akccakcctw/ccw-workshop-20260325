@@ -10,7 +10,7 @@
 | 檔案 | 內容 |
 |------|------|
 | customer_list.csv | 50 位客戶名單（含消費金額、VIP 等級、國家） |
-| coupon_rules.csv | 16 筆 coupon 設定（含折扣類型、適用國家、日期） |
+| coupon_rules.csv | 15 筆 coupon 設定（含折扣類型、適用國家、日期） |
 | campaign_tracking.csv | 21 筆行銷活動追蹤（含管道、預算、負責人） |
 | monthly_report_2026_01~03.csv | Q1 三個月行銷報表（含 ROAS、轉換率） |
 

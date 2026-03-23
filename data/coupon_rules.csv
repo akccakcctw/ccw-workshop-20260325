@@ -1,16 +1,16 @@
 coupon_code,discount_type,discount_value,currency,min_order_amount,applicable_countries,applicable_categories,start_date,end_date,max_uses,per_user_limit,stackable,description
-SPRING2025TW,percentage,15,TWD,1500,"TW","tours;activities",2025-04-01,2025-04-30,5000,1,no,台灣春季旅遊 85 折
-SPRING2025JP,percentage,15,JPY,5000,"JP","tours;activities",2025-04-01,2025-04-30,3000,1,no,日本春季旅遊 85 折
-SPRING2025KR,percentage,15,KRW,30000,"KR","tours;activities",2025-04-01,2025-04-30,3000,1,no,韓國春季旅遊 85 折
-SAKURA500,fixed,500,TWD,3000,"TW;HK","tours",2025-03-15,2025-04-15,2000,2,no,櫻花季折 500
-SAKURA1000,fixed,1000,TWD,6000,"TW;HK","tours;tickets",2025-03-15,2025-04-15,1000,1,no,櫻花季折 1000
-NEWUSER10,percentage,10,USD,0,"ALL","ALL",2025-01-01,2025-12-31,99999,1,no,新會員首購 9 折
-SUMMER25SG,percentage,20,SGD,100,"SG;MY","activities;transport",2025-06-01,2025-08-31,4000,2,yes,東南亞夏季活動 8 折
-SUMMER25HK,percentage,20,HKD,300,"HK","activities;transport",2025-06-01,2025-08-31,4000,2,yes,香港夏季活動 8 折
-FAMILY2025,fixed,200,TWD,2000,"TW","tours;activities;tickets",2025-04-01,2025-06-30,3000,3,yes,親子出遊折 200
-VIP50OFF,percentage,50,TWD,0,"ALL","ALL",2025-03-01,2025-03-31,100,1,no,VIP 專屬半價（限量）
-WEEKEND88,fixed,88,TWD,888,"TW","activities",2025-04-01,2025-04-30,8888,1,no,週末活動折 88
-HOTEL15,percentage,15,TWD,5000,"TW;JP;KR","hotels",2025-05-01,2025-05-31,2000,1,no,住宿 85 折
-EARLYBIRD,percentage,25,USD,50,"ALL","tours",2025-04-01,2025-04-30,500,1,no,早鳥優惠 75 折
-MOTHERS25,fixed,300,TWD,2500,"TW","tours;activities;spa",2025-05-01,2025-05-14,3000,2,yes,母親節折 300
-FLASHSALE,percentage,30,TWD,1000,"TW","ALL",2025-04-10,2025-04-10,1000,1,no,快閃一日限定 7 折
+SPRING2026TW,percentage,15,TWD,1500,"TW","tours;activities",2026-04-01,2026-04-30,5000,1,no,台灣春季旅遊 85 折
+SPRING2026JP,percentage,15,JPY,5000,"JP","tours;activities",2026-04-01,2026-04-30,3000,1,no,日本春季旅遊 85 折
+SPRING2026KR,percentage,15,KRW,30000,"KR","tours;activities",2026-04-01,2026-04-30,3000,1,no,韓國春季旅遊 85 折
+SAKURA500,fixed,500,TWD,3000,"TW;HK","tours",2026-03-15,2026-04-15,2000,2,no,櫻花季折 500
+SAKURA1000,fixed,1000,TWD,6000,"TW;HK","tours;tickets",2026-03-15,2026-04-15,1000,1,no,櫻花季折 1000
+NEWUSER10,percentage,10,USD,0,"ALL","ALL",2026-01-01,2026-12-31,99999,1,no,新會員首購 9 折
+SUMMER26SG,percentage,20,SGD,100,"SG;MY","activities;transport",2026-06-01,2026-08-31,4000,2,yes,東南亞夏季活動 8 折
+SUMMER26HK,percentage,20,HKD,300,"HK","activities;transport",2026-06-01,2026-08-31,4000,2,yes,香港夏季活動 8 折
+FAMILY2026,fixed,200,TWD,2000,"TW","tours;activities;tickets",2026-04-01,2026-06-30,3000,3,yes,親子出遊折 200
+VIP50OFF,percentage,50,TWD,0,"ALL","ALL",2026-03-01,2026-03-31,100,1,no,VIP 專屬半價（限量）
+WEEKEND88,fixed,88,TWD,888,"TW","activities",2026-04-01,2026-04-30,8888,1,no,週末活動折 88
+HOTEL15,percentage,15,TWD,5000,"TW;JP;KR","hotels",2026-05-01,2026-05-31,2000,1,no,住宿 85 折
+EARLYBIRD,percentage,25,USD,50,"ALL","tours",2026-04-01,2026-04-30,500,1,no,早鳥優惠 75 折
+MOTHERS26,fixed,300,TWD,2500,"TW","tours;activities;spa",2026-05-01,2026-05-14,3000,2,yes,母親節折 300
+FLASHSALE,percentage,30,TWD,1000,"TW","ALL",2026-04-10,2026-04-10,1000,1,no,快閃一日限定 7 折

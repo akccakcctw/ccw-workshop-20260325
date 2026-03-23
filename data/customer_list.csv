@@ -1,51 +1,51 @@
 customer_id,name,email,country,city,registration_date,last_purchase_date,total_orders,total_spent_usd,avg_order_value_usd,preferred_category,vip_tier,last_coupon_used,referral_source
-C001,王小明,wang.xm@email.com,TW,Taipei,2022-03-15,2025-03-10,28,4520,161.43,tours,Gold,SPRING2025TW,organic
-C002,陳美玲,chen.ml@email.com,TW,Kaohsiung,2023-01-20,2025-02-28,12,1890,157.50,activities,Silver,WEEKEND88,facebook
-C003,林志偉,lin.zw@email.com,TW,Taichung,2021-08-10,2024-11-15,35,6200,177.14,tours,Gold,SAKURA500,google
-C004,Tanaka Yuki,tanaka.y@email.jp,JP,Tokyo,2023-06-01,2025-03-12,8,1200,150.00,tickets,Silver,,organic
-C005,Sarah Lee,sarah.l@email.sg,SG,Singapore,2022-11-05,2025-03-08,15,3100,206.67,tours,Gold,SUMMER25SG,instagram
-C006,張家豪,chang.jh@email.com,TW,Taipei,2024-01-15,2025-01-20,5,680,136.00,activities,Bronze,,line
-C007,Park Minji,park.mj@email.kr,KR,Seoul,2023-09-22,2025-03-05,10,1750,175.00,tours,Silver,SPRING2025KR,google
-C008,李佳穎,li.jy@email.com,TW,Hsinchu,2022-05-30,2024-08-10,20,3400,170.00,tours,Gold,,edm
-C009,Wong Ka Man,wong.km@email.hk,HK,Hong Kong,2023-03-18,2025-03-11,9,1580,175.56,activities,Silver,SUMMER25HK,facebook
-C010,黃志明,huang.zm@email.com,TW,Taipei,2024-06-01,2024-12-25,3,420,140.00,tickets,Bronze,NEWUSER10,organic
-C011,Sato Kenji,sato.k@email.jp,JP,Osaka,2022-12-01,2025-02-20,18,3800,211.11,tours,Gold,,google
-C012,吳佩珊,wu.ps@email.com,TW,Tainan,2023-07-14,2025-03-01,7,950,135.71,activities,Bronze,FAMILY2025,line
-C013,Ahmad Rizal,ahmad.r@email.my,MY,KL,2024-02-28,2025-03-09,6,880,146.67,transport,Bronze,,tiktok
-C014,劉雅婷,liu.yt@email.com,TW,Taipei,2021-04-20,2025-03-13,42,7800,185.71,tours,Platinum,VIP50OFF,organic
-C015,Kim Soyeon,kim.sy@email.kr,KR,Busan,2023-11-10,2025-01-15,4,620,155.00,activities,Bronze,,instagram
-C016,許文龍,hsu.wl@email.com,TW,Taipei,2022-09-05,2024-06-30,15,2200,146.67,tickets,Silver,,edm
-C017,Ng Wei Lin,ng.wl@email.sg,SG,Singapore,2023-04-12,2025-03-07,11,2400,218.18,tours,Silver,,google
-C018,蔡依倫,tsai.yl@email.com,TW,Taoyuan,2024-08-20,2025-02-14,4,550,137.50,activities,Bronze,WEEKEND88,facebook
-C019,Yamamoto Aoi,yamamoto.a@email.jp,JP,Kyoto,2022-07-25,2025-03-02,22,4100,186.36,tours,Gold,,organic
-C020,鄭凱文,cheng.kw@email.com,TW,Taipei,2023-02-14,2024-09-20,8,1100,137.50,activities,Silver,,line
-C021,Lim Jia Hui,lim.jh@email.sg,SG,Singapore,2024-05-01,2025-03-10,7,1350,192.86,tours,Bronze,,facebook
-C022,周雅琪,chou.yc@email.com,TW,Taipei,2021-11-30,2025-03-14,50,9200,184.00,tours,Platinum,SAKURA1000,organic
-C023,David Chen,david.c@email.hk,HK,Hong Kong,2023-08-15,2025-02-25,6,980,163.33,tickets,Bronze,,google
-C024,楊宗翰,yang.zh@email.com,TW,Keelung,2024-03-10,2024-10-05,2,280,140.00,activities,Bronze,NEWUSER10,edm
-C025,Watanabe Hana,watanabe.h@email.jp,JP,Sapporo,2023-01-08,2025-01-30,14,2600,185.71,tours,Silver,,instagram
-C026,賴宜芳,lai.yf@email.com,TW,Changhua,2022-06-18,2025-03-06,16,2700,168.75,tours,Silver,SPRING2025TW,organic
-C027,Lee Min Ho,lee.mh@email.kr,KR,Seoul,2024-01-20,2025-03-04,5,750,150.00,tours,Bronze,,tiktok
-C028,謝佳蓉,hsieh.jr@email.com,TW,Taipei,2023-05-22,2024-07-15,9,1400,155.56,activities,Silver,,facebook
-C029,Chan Wai Yee,chan.wy@email.hk,HK,Hong Kong,2022-10-12,2025-03-12,13,2300,176.92,tours,Silver,,google
-C030,曾俊傑,tseng.jj@email.com,TW,Taipei,2021-09-01,2025-03-11,38,6800,178.95,tours,Gold,,organic
-C031,Suzuki Ren,suzuki.r@email.jp,JP,Nagoya,2024-04-15,2025-02-10,3,480,160.00,activities,Bronze,,organic
-C032,方怡婷,fang.yt@email.com,TW,Taipei,2023-10-08,2025-01-08,6,820,136.67,tickets,Bronze,EARLYBIRD,edm
-C033,Tan Wei Ming,tan.wm@email.sg,SG,Singapore,2022-08-20,2025-03-13,20,4200,210.00,tours,Gold,,google
-C034,洪嘉慧,hung.jh@email.com,TW,Pingtung,2024-07-01,2024-11-20,2,310,155.00,activities,Bronze,,line
-C035,Choi Yuna,choi.yn@email.kr,KR,Incheon,2023-12-05,2025-02-28,7,1100,157.14,tours,Bronze,,instagram
-C036,林書豪,lin.sh@email.com,TW,Taipei,2022-02-28,2025-03-09,25,4000,160.00,tours,Gold,SAKURA500,organic
-C037,Ito Sakura,ito.s@email.jp,JP,Fukuoka,2023-03-14,2025-03-01,12,2100,175.00,tours,Silver,,facebook
-C038,葉芷安,yeh.za@email.com,TW,Zhongli,2024-09-15,2025-02-20,3,390,130.00,activities,Bronze,FAMILY2025,line
-C039,Patel Arun,patel.a@email.sg,SG,Singapore,2023-07-22,2025-01-25,8,1600,200.00,tours,Silver,,google
-C040,陳冠宇,chen.gy@email.com,TW,Taipei,2021-12-10,2025-03-15,45,8500,188.89,tours,Platinum,,organic
-C041,Nakamura Mei,nakamura.m@email.jp,JP,Yokohama,2024-02-10,2025-03-08,5,900,180.00,tours,Bronze,,instagram
-C042,廖雅惠,liao.yh@email.com,TW,Taichung,2023-04-30,2024-05-12,4,540,135.00,activities,Bronze,,edm
-C043,Ho Ka Fai,ho.kf@email.hk,HK,Hong Kong,2022-11-25,2025-03-10,17,3200,188.24,tours,Gold,,organic
-C044,郭彥廷,kuo.yt@email.com,TW,Taipei,2024-01-05,2025-03-02,6,850,141.67,activities,Bronze,WEEKEND88,facebook
-C045,Yoon Seojin,yoon.sj@email.kr,KR,Daegu,2023-06-18,2025-02-15,9,1400,155.56,tours,Silver,,google
-C046,朱玟靜,chu.wj@email.com,TW,Taipei,2022-04-15,2025-03-07,19,3100,163.16,tours,Silver,SPRING2025TW,line
-C047,Takahashi Ryu,takahashi.r@email.jp,JP,Kobe,2023-08-30,2025-01-10,6,1050,175.00,tickets,Bronze,,organic
-C048,簡雯婷,chien.wt@email.com,TW,Hualien,2024-06-20,2024-09-30,2,260,130.00,tours,Bronze,NEWUSER10,organic
-C049,Chua Mei Ling,chua.ml@email.sg,SG,Singapore,2022-05-10,2025-03-14,24,5100,212.50,tours,Gold,,google
-C050,盧建志,lu.jz@email.com,TW,Taipei,2023-09-12,2025-03-03,11,1800,163.64,tours,Silver,,organic
+C001,王小明,wang.xm@email.com,TW,Taipei,2026-03-15,2026-03-10,28,4520,161.43,tours,Gold,SPRING2026TW,organic
+C002,陳美玲,chen.ml@email.com,TW,Kaohsiung,2026-01-20,2026-02-28,12,1890,157.50,activities,Silver,WEEKEND88,facebook
+C003,林志偉,lin.zw@email.com,TW,Taichung,2026-08-10,2026-11-15,35,6200,177.14,tours,Gold,SAKURA500,google
+C004,Tanaka Yuki,tanaka.y@email.jp,JP,Tokyo,2026-06-01,2026-03-12,8,1200,150.00,tickets,Silver,,organic
+C005,Sarah Lee,sarah.l@email.sg,SG,Singapore,2026-11-05,2026-03-08,15,3100,206.67,tours,Gold,SUMMER26SG,instagram
+C006,張家豪,chang.jh@email.com,TW,Taipei,2026-01-15,2026-01-20,5,680,136.00,activities,Bronze,,line
+C007,Park Minji,park.mj@email.kr,KR,Seoul,2026-09-22,2026-03-05,10,1750,175.00,tours,Silver,SPRING2026KR,google
+C008,李佳穎,li.jy@email.com,TW,Hsinchu,2026-05-30,2026-08-10,20,3400,170.00,tours,Gold,,edm
+C009,Wong Ka Man,wong.km@email.hk,HK,Hong Kong,2026-03-18,2026-03-11,9,1580,175.56,activities,Silver,SUMMER26HK,facebook
+C010,黃志明,huang.zm@email.com,TW,Taipei,2026-06-01,2026-12-25,3,420,140.00,tickets,Bronze,NEWUSER10,organic
+C011,Sato Kenji,sato.k@email.jp,JP,Osaka,2026-12-01,2026-02-20,18,3800,211.11,tours,Gold,,google
+C012,吳佩珊,wu.ps@email.com,TW,Tainan,2026-07-14,2026-03-01,7,950,135.71,activities,Bronze,FAMILY2026,line
+C013,Ahmad Rizal,ahmad.r@email.my,MY,KL,2026-02-28,2026-03-09,6,880,146.67,transport,Bronze,,tiktok
+C014,劉雅婷,liu.yt@email.com,TW,Taipei,2026-04-20,2026-03-13,42,7800,185.71,tours,Platinum,VIP50OFF,organic
+C015,Kim Soyeon,kim.sy@email.kr,KR,Busan,2026-11-10,2026-01-15,4,620,155.00,activities,Bronze,,instagram
+C016,許文龍,hsu.wl@email.com,TW,Taipei,2026-09-05,2026-06-30,15,2200,146.67,tickets,Silver,,edm
+C017,Ng Wei Lin,ng.wl@email.sg,SG,Singapore,2026-04-12,2026-03-07,11,2400,218.18,tours,Silver,,google
+C018,蔡依倫,tsai.yl@email.com,TW,Taoyuan,2026-08-20,2026-02-14,4,550,137.50,activities,Bronze,WEEKEND88,facebook
+C019,Yamamoto Aoi,yamamoto.a@email.jp,JP,Kyoto,2026-07-25,2026-03-02,22,4100,186.36,tours,Gold,,organic
+C020,鄭凱文,cheng.kw@email.com,TW,Taipei,2026-02-14,2026-09-20,8,1100,137.50,activities,Silver,,line
+C021,Lim Jia Hui,lim.jh@email.sg,SG,Singapore,2026-05-01,2026-03-10,7,1350,192.86,tours,Bronze,,facebook
+C022,周雅琪,chou.yc@email.com,TW,Taipei,2026-11-30,2026-03-14,50,9200,184.00,tours,Platinum,SAKURA1000,organic
+C023,David Chen,david.c@email.hk,HK,Hong Kong,2026-08-15,2026-02-25,6,980,163.33,tickets,Bronze,,google
+C024,楊宗翰,yang.zh@email.com,TW,Keelung,2026-03-10,2026-10-05,2,280,140.00,activities,Bronze,NEWUSER10,edm
+C025,Watanabe Hana,watanabe.h@email.jp,JP,Sapporo,2026-01-08,2026-01-30,14,2600,185.71,tours,Silver,,instagram
+C026,賴宜芳,lai.yf@email.com,TW,Changhua,2026-06-18,2026-03-06,16,2700,168.75,tours,Silver,SPRING2026TW,organic
+C027,Lee Min Ho,lee.mh@email.kr,KR,Seoul,2026-01-20,2026-03-04,5,750,150.00,tours,Bronze,,tiktok
+C028,謝佳蓉,hsieh.jr@email.com,TW,Taipei,2026-05-22,2026-07-15,9,1400,155.56,activities,Silver,,facebook
+C029,Chan Wai Yee,chan.wy@email.hk,HK,Hong Kong,2026-10-12,2026-03-12,13,2300,176.92,tours,Silver,,google
+C030,曾俊傑,tseng.jj@email.com,TW,Taipei,2026-09-01,2026-03-11,38,6800,178.95,tours,Gold,,organic
+C031,Suzuki Ren,suzuki.r@email.jp,JP,Nagoya,2026-04-15,2026-02-10,3,480,160.00,activities,Bronze,,organic
+C032,方怡婷,fang.yt@email.com,TW,Taipei,2026-10-08,2026-01-08,6,820,136.67,tickets,Bronze,EARLYBIRD,edm
+C033,Tan Wei Ming,tan.wm@email.sg,SG,Singapore,2026-08-20,2026-03-13,20,4200,210.00,tours,Gold,,google
+C034,洪嘉慧,hung.jh@email.com,TW,Pingtung,2026-07-01,2026-11-20,2,310,155.00,activities,Bronze,,line
+C035,Choi Yuna,choi.yn@email.kr,KR,Incheon,2026-12-05,2026-02-28,7,1100,157.14,tours,Bronze,,instagram
+C036,林書豪,lin.sh@email.com,TW,Taipei,2026-02-28,2026-03-09,25,4000,160.00,tours,Gold,SAKURA500,organic
+C037,Ito Sakura,ito.s@email.jp,JP,Fukuoka,2026-03-14,2026-03-01,12,2100,175.00,tours,Silver,,facebook
+C038,葉芷安,yeh.za@email.com,TW,Zhongli,2026-09-15,2026-02-20,3,390,130.00,activities,Bronze,FAMILY2026,line
+C039,Patel Arun,patel.a@email.sg,SG,Singapore,2026-07-22,2026-01-25,8,1600,200.00,tours,Silver,,google
+C040,陳冠宇,chen.gy@email.com,TW,Taipei,2026-12-10,2026-03-15,45,8500,188.89,tours,Platinum,,organic
+C041,Nakamura Mei,nakamura.m@email.jp,JP,Yokohama,2026-02-10,2026-03-08,5,900,180.00,tours,Bronze,,instagram
+C042,廖雅惠,liao.yh@email.com,TW,Taichung,2026-04-30,2026-05-12,4,540,135.00,activities,Bronze,,edm
+C043,Ho Ka Fai,ho.kf@email.hk,HK,Hong Kong,2026-11-25,2026-03-10,17,3200,188.24,tours,Gold,,organic
+C044,郭彥廷,kuo.yt@email.com,TW,Taipei,2026-01-05,2026-03-02,6,850,141.67,activities,Bronze,WEEKEND88,facebook
+C045,Yoon Seojin,yoon.sj@email.kr,KR,Daegu,2026-06-18,2026-02-15,9,1400,155.56,tours,Silver,,google
+C046,朱玟靜,chu.wj@email.com,TW,Taipei,2026-04-15,2026-03-07,19,3100,163.16,tours,Silver,SPRING2026TW,line
+C047,Takahashi Ryu,takahashi.r@email.jp,JP,Kobe,2026-08-30,2026-01-10,6,1050,175.00,tickets,Bronze,,organic
+C048,簡雯婷,chien.wt@email.com,TW,Hualien,2026-06-20,2026-09-30,2,260,130.00,tours,Bronze,NEWUSER10,organic
+C049,Chua Mei Ling,chua.ml@email.sg,SG,Singapore,2026-05-10,2026-03-14,24,5100,212.50,tours,Gold,,google
+C050,盧建志,lu.jz@email.com,TW,Taipei,2026-09-12,2026-03-03,11,1800,163.64,tours,Silver,,organic

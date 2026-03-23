@@ -77,7 +77,7 @@
 | **登入** | 公司帳號 | Google 帳號 |
 | **上傳檔案** | CSV/Excel/PDF/圖片（單檔 30MB，單次對話最多 20 檔） | CSV/Excel/PDF/圖片 + Google Drive 整合 |
 | **圖像辨識** | 支援（上傳圖片分析） | **最強**（多模態辨識領先） |
-| **跑程式算數據** | JS/Python（Analysis tool） | Python（Colab 整合） |
+| **跑程式算數據** | Python/JS（Analysis tool，自動執行） | Python（Colab 整合） |
 | **上網搜尋** | 內建（附引用來源） | 內建（Google Search 整合最強） |
 | **生成圖片** | 不行（可透過 Artifacts 產互動圖表、SVG） | Imagen 4 內建 |
 | **生成影片** | 不行 | Veo 3（需付費方案） |

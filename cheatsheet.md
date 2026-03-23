@@ -3,6 +3,17 @@
 ## claude.ai 網址
 **https://claude.ai** （用公司帳號登入）
 
+## 練習用資料下載
+
+> 📎 檔案連結會在 Google Meet chat 中分享
+
+| 檔案 | 內容 |
+|------|------|
+| customer_list.csv | 50 位客戶名單（含消費金額、VIP 等級、國家） |
+| coupon_rules.csv | 16 筆 coupon 設定（含折扣類型、適用國家、日期） |
+| campaign_tracking.csv | 21 筆行銷活動追蹤（含管道、預算、負責人） |
+| monthly_report_2026_01~03.csv | Q1 三個月行銷報表（含 ROAS、轉換率） |
+
 ---
 
 ## 萬用 Prompt 框架
@@ -63,7 +74,7 @@ AI 會記住你之前說的話，所以你可以一直追問：
 
 ## 上傳檔案的方法
 
-在 claude.ai 的對話框中，點左下角的 **📎 迴紋針** 圖示，即可上傳：
+在 claude.ai 的對話框中，點 **📎 迴紋針** 圖示（或直接拖曳檔案到對話框），即可上傳：
 - CSV / Excel 檔案
 - PDF 文件
 - 圖片

@@ -55,9 +55,9 @@
 | **誰在用** | 公司的工程師（Web Squad 等） | 工程師、資料分析師 |
 | **能做什麼** | 寫程式、改 code、跑測試、自動化流程 | 分析檔案、生成程式碼 |
 | **讀取檔案** | 直接讀電腦上的任何檔案 | 直接讀電腦上的任何檔案 |
-| **跑程式** | 任何語言都能直接執行 | Python 為主 |
-| **連接外部服務** | **MCP 生態系**（Slack、Google Calendar、Jira、GitHub 等，持續擴充） | 也支援 MCP（stdio/SSE/HTTP），生態系持續追趕中 |
-| **最強項** | 軟體開發 + MCP 生態系最成熟 | 大檔案分析（1M token 上下文）+ 免費 |
+| **跑程式** | 任何語言都能直接執行 | 任何語言都能直接執行（透過本地 shell） |
+| **連接外部服務** | **MCP 生態系**（Slack、Google Calendar、Jira、GitHub 等，持續擴充） | 同樣支援 MCP（stdio/SSE/HTTP），可共用同一套 MCP server |
+| **最強項** | 軟體開發 + MCP 生態系最成熟 | 大檔案分析（1M token 上下文）+ 免費 + 開源 |
 
 **跟學員怎麼講**：
 
@@ -110,7 +110,8 @@
 | 辨識圖片內容（截圖、照片、名片） | 可以 | **首選**——多模態辨識最強 |
 | 產生圖片 | 不行 | **可以**（Imagen 4） |
 | 操作 Google Drive/Docs/Sheets | 透過 MCP 可連接（需額外設定） | **原生整合最方便** |
-| 連接 Slack / Jira / 其他服務 | **透過 MCP**（生態系最成熟） | 也支援 MCP，持續追趕中 |
+| 連接 Slack / Jira / 其他服務（簡單） | **Claude Desktop Connectors**（一鍵授權） | Gemini 有 Google Workspace 原生整合 |
+| 連接 Slack / Jira / 其他服務（進階） | **Claude Code** + MCP | **Gemini CLI** + MCP（共用同一套生態系） |
 | 需要互動式 Dashboard | **Artifacts**（可互動的圖表網頁） | 基本圖表 |
 
 **一句話記住**：文字分析找 Claude，看圖生圖找 Gemini。
@@ -141,7 +142,8 @@
 | 分析 Google Sheets 裡的資料 | **Gemini** | 直接連 Google Drive，不用下載上傳 |
 | 需要生成配圖 | **Gemini** | Imagen 內建，描述就生圖 |
 | 通勤中快速問問題 | **Claude App / Gemini App** | 手機上直接語音問 |
-| 想做跨工具自動化 | **Claude Code** + MCP | 可以連 Slack、Calendar、Jira 等，設定可問 AI 協助 |
+| 想做跨工具自動化（簡單） | **Claude Desktop**（Connectors） | 設定頁一鍵授權，免裝任何東西，支援 Slack、Jira、Google Calendar 等 50+ 服務 |
+| 想做跨工具自動化（進階） | **Claude Code** / **Gemini CLI** + MCP | 工程師用 CLI 設定 MCP server，彈性最大，兩者共用同一套 MCP 生態系 |
 
 ### 搭配使用的建議流程
 

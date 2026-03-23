@@ -691,13 +691,12 @@ layout: center
 </div>
 
 <div class="mt-8 text-lg opacity-70">
-卡住了就截圖丟 Slack 問 Rex 或 Jeff<br>
-下週我們做個 15 分鐘 follow-up，聽聽大家的實戰經驗
+卡住了就截圖丟 Slack 問 Rex 或 Jeff
 </div>
 
 <!--
 「回去之後，找一件你這週要做的事，先用 Claude Desktop 試試看。
-卡住了就截圖丟 Slack 問我們。下週我們做個 15 分鐘 follow-up，聽聯大家的實戰經驗。」
+卡住了就截圖丟 Slack 問我們。」
 -->
 
 ---
@@ -711,9 +710,6 @@ class: text-center
 Slack 找 Rex 或 Jeff
 </div>
 
-<div class="mt-2 text-sm opacity-50">
-有確定要做的自動化需求 → 開 JIRA ticket
-</div>
 
 <!--
 交給 Ming & Mike 總結，或進入自由 Q&A 時間。

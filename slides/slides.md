@@ -134,7 +134,7 @@ KKday 全球策略行銷處工作坊 — 2026/03/25
 
 <div class="flex items-start gap-3">
 <div class="text-base font-bold text-blue-700 w-36 shrink-0">CLI（命令列）</div>
-<div class="text-sm">工程師用的黑色畫面操作方式。<br>Claude Code、Gemini CLI 都是 CLI 工具，<strong>你不需要會用</strong>。</div>
+<div class="text-sm">用文字指令操作的介面（黑色畫面）。<br>Claude Code、Gemini CLI 都是 CLI 工具，<strong>適合自動化流程</strong>。</div>
 </div>
 
 <div class="flex items-start gap-3">
@@ -202,7 +202,7 @@ KKday 全球策略行銷處工作坊 — 2026/03/25
 <div class="px-3 py-2 bg-gray-100 rounded font-bold text-sm">Gemini CLI</div>
 </div>
 </div>
-<div class="text-center text-xs mt-2 opacity-60">Terminal 裡跑，你不需要會</div>
+<div class="text-center text-xs mt-2 opacity-60">Terminal 裡跑，適合自動化流程</div>
 </div>
 
 </div>
@@ -215,7 +215,317 @@ KKday 全球策略行銷處工作坊 — 2026/03/25
 「Claude 跟 Gemini 各自有三種使用方式：網頁版、桌面 App、還有工程師用的 CLI。
 今天我們主要用 Claude Desktop——就是裝在電腦上的桌面 App，功能跟網頁版一樣，
 但多了 Connectors 可以直接連 Slack、Google Calendar 等服務。
-CLI 是工程師用的，你只要知道它叫什麼，跟工程師溝通時不會搞混就好。」
+CLI 是用文字指令操作的進階介面，適合做自動化。有興趣的話之後可以試試看。」
+-->
+
+---
+layout: section
+---
+
+# Claude Desktop 介紹
+
+不只是對話框——你的 AI 協作中心
+
+<!--
+「接下來花幾分鐘帶大家認識今天的主角——Claude Desktop。
+它不只是把網頁版包成一個 App，而是多了很多獨家功能。」
+-->
+
+---
+
+# Claude Desktop：三個分頁
+
+<div class="mt-2">
+<img src="/screenshots/desktop-tabs-1.png" alt="Claude Desktop 三個分頁總覽" class="rounded-lg shadow-lg mx-auto" style="max-height: 340px;" />
+</div>
+
+<div class="grid grid-cols-3 gap-4 mt-4">
+
+<div class="p-3 bg-amber-50 rounded-lg text-center">
+<div class="font-bold">Chat</div>
+<div class="text-xs mt-1">一般對話、問答、分析資料</div>
+</div>
+
+<div class="p-3 bg-purple-50 rounded-lg text-center">
+<div class="font-bold">Cowork</div>
+<div class="text-xs mt-1">背景代理人，交辦後自動執行</div>
+</div>
+
+<div class="p-3 bg-green-50 rounded-lg text-center">
+<div class="font-bold">Code</div>
+<div class="text-xs mt-1">開發助手，讀取編輯本地檔案</div>
+</div>
+
+</div>
+
+<!--
+「打開 Claude Desktop，最上面有三個分頁：Chat、Cowork、Code。
+今天我們主要會用 Chat，但 Cowork 也非常值得認識。」
+-->
+
+---
+
+# Chat 分頁：你最熟悉的對話介面
+
+<div class="grid grid-cols-2 gap-6 mt-2">
+<div>
+<img src="/screenshots/desktop-tabs-2.png" alt="Chat 分頁介面" class="rounded-lg shadow-lg" style="max-height: 320px;" />
+</div>
+<div>
+
+### 怎麼用
+
+1. **打字問問題**：下方輸入框直接輸入
+2. **上傳檔案**：點 **+** 按鈕，或直接拖曳檔案進來
+3. **選模型**：右下角可切換（Opus 4.6 / Sonnet 等）
+4. **快捷功能**：下方有 Code / Write / Create / Learn 等快捷按鈕
+
+### 跟網頁版的差別
+
+- 可以用 **Connectors** 直接連 Slack、Google Drive 等
+- Mac 上雙擊 Option 鍵可開啟 **Quick Entry**（快速擷取螢幕畫面問 AI）
+
+</div>
+</div>
+
+<!--
+「Chat 分頁長這樣，跟網頁版很像。
+下方輸入框打字就能問問題，點加號可以上傳檔案。
+桌面版多了 Connectors 跟 Quick Entry——Mac 上雙擊 Option 鍵
+可以快速截圖問 AI，等等可以試試看。」
+-->
+
+---
+
+# Cowork 分頁：你的背景代理人
+
+<div class="grid grid-cols-2 gap-6 mt-2">
+<div>
+<img src="/screenshots/desktop-tabs-3.png" alt="Cowork 分頁介面" class="rounded-lg shadow-lg" style="max-height: 320px;" />
+</div>
+<div>
+
+### 跟 Chat 的差別
+
+| | Chat | Cowork |
+|---|---|---|
+| 你要一直盯著嗎？ | 要 | **不用，交辦後去做別的事** |
+| 能存取電腦檔案嗎？ | 手動上傳 | **直接讀取整個資料夾** |
+| 適合什麼任務？ | 快速問答 | **耗時的複雜任務** |
+| 執行方式 | 即時對話 | **在背景的虛擬機器中自動執行** |
+
+### 怎麼用
+
+1. 點「**Cowork**」分頁
+2. 選擇要存取的資料夾（Work in a folder）
+3. 描述你要完成的任務
+4. 按「**Let's go**」→ 去喝杯咖啡，完成會通知你
+
+</div>
+</div>
+
+<!--
+「Cowork 是 Claude Desktop 最強大的功能。
+你交辦一個任務，例如『幫我把這五份報表合併，產出 Q1 摘要』，
+它會自己翻閱你指定的資料夾、規劃步驟、產出檔案。
+你不需要一直守在螢幕前——它會在背景的虛擬機器裡自動執行，做完通知你。
+
+跟 Chat 最大的差別：Chat 是即時對話，Cowork 是交辦任務後讓它自己跑。」
+-->
+
+---
+
+# Dispatch：手機交辦，電腦執行
+
+<div class="grid grid-cols-2 gap-6 mt-2">
+<div class="flex justify-center">
+<img src="/screenshots/dispatch-setup-1.png" alt="Dispatch 設定畫面" class="rounded-lg shadow-lg" style="max-height: 360px;" />
+</div>
+<div>
+
+### 這是什麼？
+
+用手機上的 Claude App 遠端交辦任務，讓辦公室電腦的 Claude Desktop 執行。
+
+**手機 = 對講機，電腦 = 執行者**
+
+### 設定方式
+
+1. 更新 Claude Desktop + 手機 App 到最新版
+2. 打開 Cowork 分頁
+3. 左側點「**Dispatch**」→「**Get started**」
+4. 開啟檔案存取權限 + 保持電腦喚醒
+5. 用手機 App 傳訊息給 Claude，任務就會在電腦上執行
+
+### 注意
+
+電腦必須**保持開機且 App 開著**，Claude 才能執行任務
+
+</div>
+</div>
+
+<!--
+「Dispatch 是 2026 年 3 月才剛推出的新功能。
+想像你在外面開會，突然想到要整理一份報表——
+你用手機打開 Claude App，跟它說要做什麼，
+辦公室的電腦就會開始幫你處理，你回來就看到成果了。
+
+設定很簡單，就是在 Cowork 裡面開啟 Dispatch，
+然後手機 App 跟電腦會自動配對。
+唯一的限制是電腦要保持開機狀態。」
+-->
+
+---
+
+# Scheduled Tasks：讓 Claude 定時幫你做事
+
+<div class="mt-4">
+<img src="/screenshots/scheduled-tasks.png" alt="排程任務設定" class="rounded-lg shadow-lg mx-auto" style="max-height: 160px;" />
+</div>
+
+<div class="grid grid-cols-2 gap-8 mt-6">
+<div>
+
+### 怎麼設定
+
+- **方法 1**：在 Cowork 裡輸入 `/schedule`
+- **方法 2**：左側點「Scheduled」→「+ New task」
+
+### 可選頻率
+
+每小時 / 每天 / 平日 / 每週 / 手動觸發
+
+</div>
+<div>
+
+### 行銷應用情境
+
+- 每天早上 9 點自動整理昨天的行銷數據
+- 每週一產出上週各管道 ROAS 報表
+- 每天追蹤競品社群動態並摘要
+- 定時檢查 coupon 到期日並提醒
+
+</div>
+</div>
+
+<div class="mt-4 text-sm opacity-60 text-center">
+電腦需保持開機狀態；錯過的排程會在電腦喚醒時自動補跑
+</div>
+
+<!--
+「Scheduled Tasks 就是排程任務。你設好時間跟任務內容，Claude 就會定時自動執行。
+設定方式有兩種：在 Cowork 輸入斜線指令 /schedule，或從左邊選 Scheduled 新增。
+
+舉例：你可以設定每天早上 9 點自動整理昨天的行銷數據，
+每週一自動跑一份各管道的 ROAS 報表——完全不用手動操作。」
+-->
+
+---
+
+# Connectors：一鍵連接你的工作工具
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div>
+
+### 設定步驟
+
+1. 對話框點 **+** → 滑到「**Connectors**」<br>或到 Settings → Customize → Connectors
+2. 瀏覽可用服務，點「**Connect**」
+3. 完成 OAuth 授權（一鍵）
+4. 連接完成，所有對話都能用
+
+### 目前支援的服務
+
+Google Drive / Slack / Linear / Jira / Google Calendar / Asana / Notion / GitHub 等 50+ 服務
+
+<div class="mt-3 text-sm opacity-60">
+完整清單：claude.ai/connectors
+</div>
+
+</div>
+<div>
+
+### 這代表什麼？
+
+<div class="p-4 bg-amber-50 rounded-lg mt-2">
+
+**之前**：打開 Slack 複製訊息 → 貼到 Claude → 拿到結果 → 複製回 Slack
+
+**現在**：直接跟 Claude 說「幫我看今天 Slack #marketing 頻道有什麼重點」
+
+</div>
+
+### 行銷應用情境
+
+- 「幫我看 Google Drive 裡的報表，跟上週比有什麼變化」
+- 「把這份分析結果發到 Slack #weekly-report」
+- 「看看 Jira 上這週有哪些行銷相關的 ticket」
+
+</div>
+</div>
+
+<!--
+「Connectors 是 Desktop 最實用的功能之一。
+以前你要在不同工具之間複製貼上，現在 Claude 自己去拿資料。
+
+設定超簡單：對話框點加號，選 Connectors，找到你要連的服務，
+點 Connect 然後授權就好了。一次設定，所有對話都能用。
+
+舉例：你可以直接跟 Claude 說『幫我看 Google Drive 裡那份報表跟上週比有什麼變化』，
+它會自己去 Drive 拿檔案、分析、然後回報給你。」
+-->
+
+---
+
+# Claude Desktop：快速上手
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div>
+
+### 安裝
+
+1. 到 **claude.ai/download** 下載
+2. macOS 11+ 或 Windows 10+ 都支援
+3. 安裝後用公司帳號登入
+
+### Chat 基本操作
+
+- 下方輸入框打字發問
+- 點 **+** 上傳檔案或連接 Connectors
+- 拖曳檔案到視窗直接上傳
+- Mac：雙擊 **Option** 鍵 → Quick Entry<br>（截圖 + 快速提問）
+
+</div>
+<div>
+
+### Cowork 基本操作
+
+1. 點上方「**Cowork**」分頁
+2. 到 Settings → Cowork 設定：
+   - 授權可存取的資料夾
+   - 填寫 Global Instructions（讓 Claude 知道你的偏好）
+3. 描述任務 → 「**Let's go**」
+4. Claude 在背景自動執行，完成會通知
+
+### 小技巧
+
+- 輸入 `/` 可看所有斜線指令
+- `/schedule` 建立排程任務
+- 右下角可切換不同 AI 模型
+
+</div>
+</div>
+
+<!--
+「最後快速帶一下怎麼上手：
+下載安裝很簡單，到 claude.ai/download 下載，用公司帳號登入就好。
+
+Chat 的操作跟網頁版幾乎一樣——打字、上傳檔案、拖曳。
+Mac 用戶特別推薦 Quick Entry：雙擊 Option 鍵可以直接截圖問 AI。
+
+Cowork 的話，第一次用建議先到設定頁授權資料夾存取，
+然後可以填寫 Global Instructions——就是告訴 Claude 你的角色、偏好、常用格式，
+之後每次 Cowork 任務都會自動套用。」
 -->
 
 ---

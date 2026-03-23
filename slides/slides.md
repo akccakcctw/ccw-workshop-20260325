@@ -116,11 +116,11 @@ KKday 全球策略行銷處工作坊 — 2026/03/25
 
 ---
 
-# 你可能會聽到的名詞
+# 你可能會聽到的名詞（1/2）
 
-<div class="mt-2 text-sm opacity-60 mb-4">不需要記住，知道是什麼就好</div>
+<div class="mt-2 text-sm opacity-60 mb-6">不需要記住，知道是什麼就好</div>
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-4">
+<div class="grid grid-cols-2 gap-x-12 gap-y-6">
 
 <div class="flex items-start gap-3">
 <div class="text-base font-bold text-blue-700 w-36 shrink-0">多模態</div>
@@ -131,6 +131,27 @@ KKday 全球策略行銷處工作坊 — 2026/03/25
 <div class="text-base font-bold text-blue-700 w-36 shrink-0">Token</div>
 <div class="text-sm">AI 讀寫的計量單位，大約 <strong>1 個中文字 ≈ 1~2 個 token</strong>。<br>輸入和輸出越多，消耗越多 token。</div>
 </div>
+
+<div class="flex items-start gap-3">
+<div class="text-base font-bold text-blue-700 w-36 shrink-0">Hallucination</div>
+<div class="text-sm">AI <strong>一本正經地胡說八道</strong>。<br>看起來很有自信，但答案是編的。所以要 double check。</div>
+</div>
+
+</div>
+
+<!--
+「這幾個詞你不需要記住，但以後看新聞或跟工程師聊天時會比較有感覺。
+最重要的是 Hallucination——AI 幻覺，就是 AI 會一本正經地編答案。
+這就是為什麼我們一直強調要 double check。」
+-->
+
+---
+
+# 你可能會聽到的名詞（2/2）
+
+<div class="mt-2 text-sm opacity-60 mb-6">跟「AI 連接外部工具」相關的名詞</div>
+
+<div class="grid grid-cols-2 gap-x-12 gap-y-6">
 
 <div class="flex items-start gap-3">
 <div class="text-base font-bold text-blue-700 w-36 shrink-0">CLI（命令列）</div>
@@ -147,17 +168,12 @@ KKday 全球策略行銷處工作坊 — 2026/03/25
 <div class="text-sm">Claude 內建的「<strong>一鍵連接</strong>」功能。<br>不需要工程師，在設定頁授權就能連 Slack 等服務。</div>
 </div>
 
-<div class="flex items-start gap-3">
-<div class="text-base font-bold text-blue-700 w-36 shrink-0">Hallucination</div>
-<div class="text-sm">AI <strong>一本正經地胡說八道</strong>。<br>看起來很有自信，但答案是編的。所以要 double check。</div>
-</div>
-
 </div>
 
 <!--
-「這頁的名詞你不需要記住，但以後看新聞或跟工程師聊天時會比較有感覺。
-最重要的是最後一個 Hallucination——AI 幻覺，就是 AI 會一本正經地編答案。
-這就是為什麼我們一直強調要 double check。」
+「這三個是跟 AI 連接外部工具有關的。
+MCP 是標準協定，Connectors 是 Claude 內建的一鍵連接功能，
+CLI 是工程師用的進階介面。等等介紹 Claude Desktop 時會再看到。」
 -->
 
 ---

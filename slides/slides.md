@@ -350,7 +350,8 @@ Chat 是即時對話，Cowork 是委派任務。」
 4. 手機 App 傳訊息，電腦就開始執行
 
 <div class="mt-3 p-2 bg-orange-50 rounded text-xs">
-注意：電腦需<strong>保持開機且 App 開著</strong>
+注意：電腦需<strong>保持開機且 App 開著</strong><br>
+目前僅 Pro / Max 方案可用，<strong>Team 方案尚未開放</strong>
 </div>
 
 </div>
@@ -531,7 +532,7 @@ layout: two-cols
 <v-clicks>
 
 - **搜尋結果不保證 100% 正確**<br><span class="text-sm opacity-70">可以上網搜，但還是要自己驗證</span>
-- **不會登入後台系統操作**<br><span class="text-sm opacity-70">今天做到「整理好設定」，自動化是下一步</span>
+- **操作後台系統需要額外設定**<br><span class="text-sm opacity-70">透過 Computer Use、MCP 等工具可以做到，但需要設定和監督</span>
 - **數字、日期一定要 double check**<br><span class="text-sm opacity-70">AI 會很有自信地給出錯誤答案（Hallucination！）</span>
 
 </v-clicks>

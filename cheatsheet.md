@@ -1,7 +1,7 @@
 # AI Prompt 起手式 ✦ Cheat Sheet
 
-## claude.ai 網址
-**https://claude.ai** （用公司帳號登入）
+## Claude Desktop
+下載安裝 → 用公司帳號登入（功能與 claude.ai 網頁版相同，額外支援 Connectors）
 
 ## 練習用資料下載
 
@@ -74,7 +74,7 @@ AI 會記住你之前說的話，所以你可以一直追問：
 
 ## 上傳檔案的方法
 
-在 claude.ai 的對話框中，點 **📎 迴紋針** 圖示（或直接拖曳檔案到對話框），即可上傳：
+在 Claude Desktop 的對話框中，點 **📎 迴紋針** 圖示（或直接拖曳檔案到對話框），即可上傳：
 - CSV / Excel 檔案
 - PDF 文件
 - 圖片

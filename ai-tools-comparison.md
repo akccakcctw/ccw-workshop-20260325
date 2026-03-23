@@ -25,7 +25,7 @@
 │  適合：所有人                                          │
 │                                                       │
 │  ┌──────────────┐    ┌──────────────┐                │
-│  │  claude.ai   │    │ gemini.google │                │
+│  │  Claude Desktop   │    │ gemini.google │                │
 │  │              │    │   .com       │                │
 │  └──────────────┘    └──────────────┘                │
 ├─────────────────────────────────────────────────────┤
@@ -71,9 +71,9 @@
 
 > 今天 Workshop 主要使用的介面，打開瀏覽器就能用。
 
-| | claude.ai | gemini.google.com |
+| | Claude Desktop | gemini.google.com |
 |---|---|---|
-| **網址** | https://claude.ai | https://gemini.google.com |
+| **網址** | https://Claude Desktop | https://gemini.google.com |
 | **登入** | 公司帳號 | Google 帳號 |
 | **上傳檔案** | CSV/Excel/PDF/圖片（單檔 30MB，單次對話最多 20 檔） | CSV/Excel/PDF/圖片 + Google Drive 整合 |
 | **圖像辨識** | 支援（上傳圖片分析） | **最強**（多模態辨識領先） |
@@ -105,7 +105,7 @@
 
 | 場景 | 用 Claude | 用 Gemini |
 |---|---|---|
-| 分析 CSV/Excel 資料 | 上傳到 claude.ai，寫作品質好 | 資料已在 Google Sheets 就直接用 |
+| 分析 CSV/Excel 資料 | 上傳到 Claude Desktop，寫作品質好 | 資料已在 Google Sheets 就直接用 |
 | 寫報告 / Email / 文案 | **首選**——結構清楚、繁中自然 | 可以，但繁中品質略遜 |
 | 辨識圖片內容（截圖、照片、名片） | 可以 | **首選**——多模態辨識最強 |
 | 產生圖片 | 不行 | **可以**（Imagen 4） |
@@ -126,7 +126,7 @@
 
 | 類型 | Claude 家族 | Gemini 家族 |
 |---|---|---|
-| **網頁版**（今天主要用） | claude.ai | gemini.google.com |
+| **網頁版**（今天主要用） | Claude Desktop | gemini.google.com |
 | **手機/電腦 App** | Claude App | Gemini App |
 | **工程師用的 CLI** | Claude Code（Terminal 裡跑） | Gemini CLI（Terminal 裡跑） |
 
@@ -136,8 +136,8 @@
 
 | 我想要... | 用這個 | 為什麼 |
 |---|---|---|
-| 分析 CSV/Excel 資料 | **claude.ai** | 上傳 → 問問題 → 拿圖表和結論 |
-| 寫報告 / Email / 文案 | **claude.ai** | 結構化寫作品質最穩，繁中最自然 |
+| 分析 CSV/Excel 資料 | **Claude Desktop** | 上傳 → 問問題 → 拿圖表和結論 |
+| 寫報告 / Email / 文案 | **Claude Desktop** | 結構化寫作品質最穩，繁中最自然 |
 | 辨識截圖、照片、掃描文件 | **Gemini** | 圖像辨識最準確 |
 | 分析 Google Sheets 裡的資料 | **Gemini** | 直接連 Google Drive，不用下載上傳 |
 | 需要生成配圖 | **Gemini** | Imagen 內建，描述就生圖 |
@@ -149,14 +149,14 @@
 
 ```
 1. 圖片/截圖相關 → 先丟 Gemini 辨識整理成文字
-2. 拿到結構化資料後 → 丟 claude.ai 做深入分析、產報告
+2. 拿到結構化資料後 → 丟 Claude Desktop 做深入分析、產報告
 3. 報告需要配圖 → 回 Gemini 生成
 4. 資料在 Google Sheets → 直接用 Gemini
 ```
 
 ### 共通的 Prompt 技巧（所有介面都適用）
 
-今天學的這些方法，不管在 claude.ai、Gemini 網頁版、還是 App 上都能用：
+今天學的這些方法，不管在 Claude Desktop、Gemini 網頁版、還是 App 上都能用：
 - 指定角色：「你是資深行銷分析師...」
 - 分步驟：「第一步...第二步...」
 - 給範例：「格式像這樣...」

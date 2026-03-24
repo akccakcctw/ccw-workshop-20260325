@@ -880,25 +880,25 @@ Skill 是**存起來、重複用**的 Prompt 範本
 <div class="grid grid-cols-2 gap-6 mt-4">
 <div class="p-3 bg-amber-50 rounded-lg text-sm">
 
-**Internal Comms** — 內部溝通範本
+**Content Research Writer** — 寫文章助手
 
-週報、3P update、專案狀態、事件報告，一鍵產出固定格式
+大綱 → 研究加引用 → 逐段撰寫 → review → 潤稿，全流程協作
 
 <div class="mt-2 text-xs opacity-70 break-all">
 
-https://github.com/anthropics/skills/tree/main/skills/internal-comms
+https://github.com/ComposioHQ/awesome-claude-skills/tree/main/content-research-writer
 
 </div>
 </div>
 <div class="p-3 bg-blue-50 rounded-lg text-sm">
 
-**Doc Co-authoring** — 協作寫文件
+**Competitive Ads Extractor** — 競品廣告分析
 
-三階段流程：收集背景 → 逐段撰寫 → 讀者測試，適合寫企劃、提案
+從 Facebook、LinkedIn 廣告庫抓競品文案，分析哪些寫法有效
 
 <div class="mt-2 text-xs opacity-70 break-all">
 
-https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
+https://github.com/ComposioHQ/awesome-claude-skills/tree/main/competitive-ads-extractor
 
 </div>
 </div>
@@ -906,7 +906,7 @@ https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
 
 <div class="mt-4 text-xs opacity-50">
 
-更多 Skills → <a href="https://github.com/anthropics/skills">github.com/anthropics/skills</a>
+更多 Skills → <a href="https://github.com/ComposioHQ/awesome-claude-skills">github.com/ComposioHQ/awesome-claude-skills</a>
 
 </div>
 
@@ -915,8 +915,8 @@ https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
 不用自己從零開始寫，直接把 GitHub 連結貼給 Claude，
 請它幫你讀完然後用 /skill-creator 建起來就好。
 這邊推薦兩個很實用的：
-Internal Comms 適合寫週報、專案更新；
-Doc Co-authoring 適合寫比較長的企劃或提案。
+Content Research Writer 可以幫你從大綱、研究、撰寫到潤稿一條龍；
+Competitive Ads Extractor 可以分析競品廣告文案，看哪些寫法有效。
 等下練習時間大家可以試試看。」
 -->
 

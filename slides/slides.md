@@ -858,9 +858,22 @@ Skill 是**存起來、重複用**的 Prompt 範本
 
 <!--
 「Skills 就是把你常用的工作流程存成範本。
-想像你有一個固定的週報格式，每次都要跟 Claude 講一遍很累。
-用 Skills 存起來之後，打一個斜線指令就能呼叫。
-在 Claude Desktop 的 Projects 裡面就可以設定。」
+你可以把常用的工作流程存成 Skill，之後打斜線指令就能呼叫。
+不用每次都重新跟 Claude 講一遍。」
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<img src="https://i.kym-cdn.com/photos/images/original/000/971/343/f9a.png" class="w-64 mx-auto" />
+
+## 像卡比一樣——**吸收別人的能力，變成自己的**
+
+<!--
+「大家知道卡比嗎？卡比最厲害的就是吸收敵人的能力，變成自己的。
+Skills 就是這個概念——網路上有人寫好的工作流程，你吸進來就能用。」
 -->
 
 ---

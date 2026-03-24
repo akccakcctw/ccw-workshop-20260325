@@ -849,8 +849,7 @@ Skill 是**存起來、重複用**的 Prompt 範本
 
 <div class="mt-3 text-xs opacity-60">
 
-目前 Skills 主要在 **Claude Code**（CLI）中使用；<br>
-Claude Desktop 可透過 **Projects** 的 custom instructions 達到類似效果
+在 Claude Desktop 的 **Projects** 中可直接設定 Skills
 
 </div>
 
@@ -861,8 +860,64 @@ Claude Desktop 可透過 **Projects** 的 custom instructions 達到類似效果
 「Skills 就是把你常用的工作流程存成範本。
 想像你有一個固定的週報格式，每次都要跟 Claude 講一遍很累。
 用 Skills 存起來之後，打一個斜線指令就能呼叫。
-目前主要是 Claude Code 在用，但概念一樣——
-在 Claude Desktop 你可以用 Projects 的自訂指令達到類似效果。」
+在 Claude Desktop 的 Projects 裡面就可以設定。」
+-->
+
+---
+
+# 實用 Skills 推薦：從 GitHub 直接裝
+
+<div class="mt-2 text-sm">
+
+### 怎麼裝？
+
+1. 複製 GitHub 連結，貼到 Claude Desktop 對話框
+2. 請 Claude 讀完後用 **`/skill-creator`** 幫你建立
+3. 之後打 `/skill名稱` 就能直接用
+
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="p-3 bg-amber-50 rounded-lg text-sm">
+
+**Internal Comms** — 內部溝通範本
+
+週報、3P update、專案狀態、事件報告，一鍵產出固定格式
+
+<div class="mt-2 text-xs opacity-70 break-all">
+
+https://github.com/anthropics/skills/tree/main/skills/internal-comms
+
+</div>
+</div>
+<div class="p-3 bg-blue-50 rounded-lg text-sm">
+
+**Doc Co-authoring** — 協作寫文件
+
+三階段流程：收集背景 → 逐段撰寫 → 讀者測試，適合寫企劃、提案
+
+<div class="mt-2 text-xs opacity-70 break-all">
+
+https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
+
+</div>
+</div>
+</div>
+
+<div class="mt-4 text-xs opacity-50">
+
+更多 Skills → <a href="https://github.com/anthropics/skills">github.com/anthropics/skills</a>
+
+</div>
+
+<!--
+「網路上已經有很多現成的 Skill 可以用。
+不用自己從零開始寫，直接把 GitHub 連結貼給 Claude，
+請它幫你讀完然後用 /skill-creator 建起來就好。
+這邊推薦兩個很實用的：
+Internal Comms 適合寫週報、專案更新；
+Doc Co-authoring 適合寫比較長的企劃或提案。
+等下練習時間大家可以試試看。」
 -->
 
 ---

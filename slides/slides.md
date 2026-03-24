@@ -886,7 +886,7 @@ Skill 是**存起來、重複用**的 Prompt 範本
 
 <div class="mt-2 text-xs opacity-70 break-all">
 
-https://github.com/ComposioHQ/awesome-claude-skills/tree/main/content-research-writer
+https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer
 
 </div>
 </div>
@@ -898,7 +898,7 @@ https://github.com/ComposioHQ/awesome-claude-skills/tree/main/content-research-w
 
 <div class="mt-2 text-xs opacity-70 break-all">
 
-https://github.com/ComposioHQ/awesome-claude-skills/tree/main/competitive-ads-extractor
+https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor
 
 </div>
 </div>

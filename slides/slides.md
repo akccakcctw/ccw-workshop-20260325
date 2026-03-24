@@ -215,9 +215,14 @@ AI 就能給出更精準的回答，而不是泛泛而談。」
 
 # 你可能會聽到的名詞（2/2）
 
-<div class="mt-2 text-sm opacity-60 mb-6">跟「AI 連接外部工具」相關的名詞</div>
+<div class="mt-2 text-sm opacity-60 mb-6">跟「AI 連接外部、自主做事」相關的名詞</div>
 
 <div class="grid grid-cols-2 gap-x-12 gap-y-6">
+
+<div class="flex items-start gap-3">
+<div class="text-base font-bold text-blue-700 w-36 shrink-0">Agent（代理人）</div>
+<div class="text-sm">AI 不只回答問題，還能<strong>自己規劃步驟、執行任務</strong>。<br>像派一個助理去辦事——你說目標，它自己想怎麼做。</div>
+</div>
 
 <div class="flex items-start gap-3">
 <div class="text-base font-bold text-blue-700 w-36 shrink-0">CLI（命令列）</div>
@@ -237,9 +242,74 @@ AI 就能給出更精準的回答，而不是泛泛而談。」
 </div>
 
 <!--
-「這三個是跟 AI 連接外部工具有關的。
+「這四個是跟 AI 連接外部工具、自主做事有關的。
+Agent 就是代理人，AI 不只回答你，還能自己規劃步驟去執行任務——
+等等看到的 Cowork 就是一種 Agent 的應用。
 MCP 是標準協定，Connectors 是 Claude 內建的一鍵連接功能，
 CLI 是工程師用的進階介面。等等介紹 Claude Desktop 時會再看到。」
+-->
+
+---
+layout: section
+---
+
+# AI 能與不能
+
+建立正確期待，讓你更知道怎麼用
+
+<!--
+「名詞對齊了，接下來聊聊 AI 的邊界。
+在我們看工具和動手操作之前，先搞清楚它做得到和做不到的事，
+這樣等等看到各種功能時，你會更知道怎麼用、怎麼判斷。」
+-->
+
+---
+layout: two-cols
+---
+
+# AI 擅長 <span class="text-green-600">✓</span>
+
+<v-clicks>
+
+- **讀懂資料、做計算、找規律**<br><span class="text-sm opacity-70">→ 上傳 CSV 就能分析</span>
+- **寫文字：報告、Email、翻譯**<br><span class="text-sm opacity-70">→ 等等會看到</span>
+- **記住這次對話的上下文**<br><span class="text-sm opacity-70">→ 可以連續追問，不用重新描述</span>
+- **把重複的邏輯自動化**<br><span class="text-sm opacity-70">→ 等等深入主題會做</span>
+
+</v-clicks>
+
+::right::
+
+# AI 做不到 <span class="text-orange-500">✗</span>
+
+<v-clicks>
+
+- **搜尋結果不保證 100% 正確**<br><span class="text-sm opacity-70">可以上網搜，但還是要自己驗證</span>
+- **操作後台系統需要額外設定**<br><span class="text-sm opacity-70">透過 Computer Use、MCP 等工具可以做到，但需要設定和監督</span>
+- **數字、日期一定要 double check**<br><span class="text-sm opacity-70">AI 會很有自信地給出錯誤答案（Hallucination！）</span>
+
+</v-clicks>
+
+<!--
+「AI 很擅長讀資料、寫文字、記住對話脈絡、做自動化。
+但它不保證 100% 正確——特別是數字和日期，一定要自己驗證。
+還記得前面講的 Hallucination 嗎？它會很有自信地給你錯的答案。
+所以永遠都要 double check。」
+-->
+
+---
+layout: center
+---
+
+# 把 AI 當成一個<br>反應超快、但需要你 double check 的<span class="text-blue-600">實習生</span>
+
+<div class="mt-8 text-xl opacity-70">
+你是導演，它是演員——你給劇本，它來演。<br>
+但演完之後你要看一下有沒有演錯。
+</div>
+
+<!--
+一句話總結。帶著這個心態，接下來看看公司有哪些工具可以用。
 -->
 
 ---
@@ -272,7 +342,7 @@ CLI 是工程師用的進階介面。等等介紹 Claude Desktop 時會再看到
 </div>
 
 <div class="p-4 rounded-lg border border-gray-200 opacity-60">
-<div class="text-center text-sm font-bold opacity-60 mb-3">CLI（工程師用）</div>
+<div class="text-center text-sm font-bold opacity-60 mb-3">CLI（命令列工具）</div>
 <div class="flex justify-center gap-4">
 <div class="text-center">
 <div class="px-3 py-2 bg-gray-100 rounded font-bold text-sm">Claude Code</div>
@@ -281,7 +351,7 @@ CLI 是工程師用的進階介面。等等介紹 Claude Desktop 時會再看到
 <div class="px-3 py-2 bg-gray-100 rounded font-bold text-sm">Gemini CLI</div>
 </div>
 </div>
-<div class="text-center text-xs mt-2 opacity-60">Terminal 裡跑，適合自動化流程</div>
+<div class="text-center text-xs mt-2 opacity-60">Terminal 裡跑，工程師用來自動化流程</div>
 </div>
 
 </div>
@@ -292,10 +362,10 @@ CLI 是工程師用的進階介面。等等介紹 Claude Desktop 時會再看到
 
 <!--
 「Claude 跟 Gemini 各自有不同的使用方式：網頁版、桌面 App、還有工程師用的 CLI。
+CLI 就是用文字指令操作的黑色畫面，適合自動化流程。
 背後的 AI 模型是同一個，但因為介面不同，能做的事也不一樣。
 今天我們主要用 Claude Desktop——桌面 App 多了 Connectors 跟 Cowork，
-可以直接連 Slack、Google Calendar，還能交辦任務讓它自己跑。
-CLI 則適合做自動化流程。」
+可以直接連 Slack、Google Calendar，還能交辦任務讓它自己跑。」
 -->
 
 ---
@@ -592,13 +662,23 @@ Chat 是即時對話，Cowork 是委派任務。
 
 </div>
 
+<div class="mt-3 p-2 bg-gray-50 rounded text-xs opacity-70">
+
+**延伸名詞**：Connectors 背後用的是 **MCP**（Model Context Protocol）——讓 AI 連接外部服務的標準協定，像 USB-C 一樣，一條線就能接所有設備。Connectors 是 Claude 幫你包好的「一鍵版」，不用懂技術細節。
+
+</div>
+
 </div>
 </div>
 
 <!--
 「Connectors 讓 Claude 直接連你的工具，不用複製貼上。
 設定很簡單：點加號、選服務、授權，一次設定所有對話都能用。
-而且不只是讀取資料，它還可以幫你寫回去——發 Slack 訊息、建文件、加日曆都行。」
+而且不只是讀取資料，它還可以幫你寫回去——發 Slack 訊息、建文件、加日曆都行。
+
+順便提一下，Connectors 背後用的技術叫 MCP，
+就像 USB-C 是一種標準插頭，MCP 讓 AI 可以連接各種外部服務。
+但你不需要了解這些，Connectors 已經幫你包好了，授權就能用。」
 -->
 
 ---
@@ -702,75 +782,13 @@ graph LR
 layout: section
 ---
 
-# AI 能與不能
-
-建立正確期待，讓你更知道怎麼用
-
-<!--
-「OK 名詞對齊了，接下來聊聊 AI 的邊界。
-剛才大家看到 AI 可以寫網頁、分析資料，看起來很厲害，
-但在我們往下走之前，先聊聊它做得到和做不到的事。」
--->
-
----
-layout: two-cols
----
-
-# AI 擅長 <span class="text-green-600">✓</span>
-
-<v-clicks>
-
-- **讀懂資料、做計算、找規律**<br><span class="text-sm opacity-70">→ 剛才的客戶分析</span>
-- **寫文字：報告、Email、翻譯**<br><span class="text-sm opacity-70">→ 等等會看到</span>
-- **記住這次對話的上下文**<br><span class="text-sm opacity-70">→ 剛才我們連續追問，不用重新描述</span>
-- **把重複的邏輯自動化**<br><span class="text-sm opacity-70">→ 等等深入主題會做</span>
-
-</v-clicks>
-
-::right::
-
-# AI 做不到 <span class="text-orange-500">✗</span>
-
-<v-clicks>
-
-- **搜尋結果不保證 100% 正確**<br><span class="text-sm opacity-70">可以上網搜，但還是要自己驗證</span>
-- **操作後台系統需要額外設定**<br><span class="text-sm opacity-70">透過 Computer Use、MCP 等工具可以做到，但需要設定和監督</span>
-- **數字、日期一定要 double check**<br><span class="text-sm opacity-70">AI 會很有自信地給出錯誤答案（Hallucination！）</span>
-
-</v-clicks>
-
-<!--
-用剛才的 demo 舉例帶過每個擅長項目。
-做不到的部分重點強調「不保證正確」——呼應前面講的 Hallucination。
--->
-
----
-layout: center
----
-
-# 把 AI 當成一個<br>反應超快、但需要你 double check 的<span class="text-blue-600">實習生</span>
-
-<div class="mt-8 text-xl opacity-70">
-你是導演，它是演員——你給劇本，它來演。<br>
-但演完之後你要看一下有沒有演錯。
-</div>
-
-<!--
-一句話總結。
-接著轉場：「OK，那我們來選今天要深入做哪兩個主題。」
--->
-
----
-layout: section
----
-
 # Claude vs Gemini 怎麼選？
 
 什麼時候開 Claude，什麼時候開 Gemini
 
 <!--
 「今天我們主要用 Claude Desktop，但公司也有 Gemini。
-最後幾分鐘幫大家搞清楚：什麼時候開 Claude，什麼時候開 Gemini。」
+花幾分鐘幫大家搞清楚：什麼時候開 Claude，什麼時候開 Gemini。」
 -->
 
 ---
@@ -858,7 +876,8 @@ graph LR
 </div>
 
 <!--
-「你們可能在網路上看過『要先指定角色 AI 才會回答得好』——
+「動手之前，先講幾個 Prompt 技巧，等等操作時直接用。
+你們可能在網路上看過『要先指定角色 AI 才會回答得好』——
 這在早期的模型確實有效，但現在的 Claude 和 Gemini 已經很聰明了。
 與其說『你是資深分析師』，不如把你的情境講清楚：
 『我要準備週會報告，對象是行銷主管，需要各管道 ROAS 比較』。
@@ -875,7 +894,7 @@ layout: section
 打開 Claude Desktop，跟著操作
 
 <!--
-「OK 觀念的部分都講完了，接下來我們實際動手操作。
+「OK 觀念跟技巧都講完了，接下來實際動手操作。
 請大家打開 Claude Desktop，跟著我一起做。」
 -->
 
@@ -924,6 +943,65 @@ layout: section
 「下載安裝到 claude.ai/download，登入就好。
 Chat 操作跟網頁版一樣。Cowork 第一次用先到設定授權資料夾。
 輸入斜線可以看到所有快捷指令。」
+-->
+
+---
+
+# 練習時間：挑一個試試看
+
+<div class="grid grid-cols-2 gap-6 mt-4 text-sm">
+<div>
+
+### 練習 A：上傳檔案分析
+
+1. 準備一份你手邊的 **CSV 或 Excel**（報表、名單都行）
+2. 拖曳到 Claude Desktop
+3. 試試這樣問：
+
+<div class="p-3 bg-amber-50 rounded mt-2 text-xs">
+
+「這份資料有哪些欄位？幫我整理出前 3 個重點發現，用表格呈現」
+
+</div>
+
+4. 追問修改：「只看日本市場的數據」「加上跟上個月的比較」
+
+</div>
+<div>
+
+### 練習 B：連接 Connectors
+
+1. 點輸入框的 **+** →「**Connectors**」
+2. 連接 **Google Drive** 或 **Slack**
+3. 試試這樣問：
+
+<div class="p-3 bg-green-50 rounded mt-2 text-xs">
+
+「幫我看 Slack #marketing 頻道今天的訊息，整理出待辦事項」
+
+</div>
+
+<div class="p-3 bg-blue-50 rounded mt-2 text-xs">
+
+「幫我找 Google Drive 裡最近的週報，摘要 3 個重點」
+
+</div>
+
+</div>
+</div>
+
+<div class="mt-4 p-3 bg-purple-50 rounded-lg text-sm text-center">
+
+卡住了？舉手問 Rex 或 Jeff，或截圖丟 <a href="https://kkday.slack.com/archives/C08M4EC9XC2">#kkday-ai-titan</a>
+
+</div>
+
+<!--
+「現在給大家 10-15 分鐘動手試。
+左邊是上傳檔案分析——拿你手邊任何一份報表丟進去就好。
+右邊是連 Connectors——連完直接問它幫你看 Slack 或 Drive。
+兩個挑一個做就好，做完再試另一個。
+卡住了隨時舉手問我們。」
 -->
 
 ---

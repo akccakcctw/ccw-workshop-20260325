@@ -779,6 +779,71 @@ graph LR
 -->
 
 ---
+
+# Skills：教 Claude 你的 SOP
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div>
+
+### 什麼是 Skills？
+
+<div class="text-sm mt-3">
+
+把你的**工作流程、格式規範、SOP** 寫成一份指令，<br>
+存起來之後隨時用 `/` 一鍵呼叫。
+
+像是幫 Claude 寫一本「**員工手冊**」——<br>
+教過一次，它就永遠記得怎麼做。
+
+</div>
+
+<div class="mt-4 p-3 bg-purple-50 rounded-lg text-sm">
+
+**跟 Prompt 的差別**：<br>
+Prompt 是每次都要重打的指令<br>
+Skill 是**存起來、重複用**的 Prompt 範本
+
+</div>
+
+</div>
+<div>
+
+### 行銷應用情境
+
+<div class="mt-3 flex flex-col gap-2 text-sm">
+<div class="p-2 bg-amber-50 rounded">
+<span class="font-bold text-amber-700">/weekly-report</span><br>
+「讀取本週數據，用固定格式產出週報」
+</div>
+<div class="p-2 bg-green-50 rounded">
+<span class="font-bold text-green-700">/campaign-brief</span><br>
+「用我們的企劃模板，填入活動資訊」
+</div>
+<div class="p-2 bg-blue-50 rounded">
+<span class="font-bold text-blue-700">/competitor-check</span><br>
+「用固定架構分析競品社群貼文」
+</div>
+</div>
+
+<div class="mt-3 text-xs opacity-60">
+
+目前 Skills 主要在 **Claude Code**（CLI）中使用；<br>
+Claude Desktop 可透過 **Projects** 的 custom instructions 達到類似效果
+
+</div>
+
+</div>
+</div>
+
+<!--
+「Skills 就是把你常用的工作流程存成範本。
+想像你有一個固定的週報格式，每次都要跟 Claude 講一遍很累。
+用 Skills 存起來之後，打一個斜線指令就能呼叫。
+目前主要是 Claude Code 在用，但概念一樣——
+在 Claude Desktop 你可以用 Projects 的自訂指令達到類似效果。」
+-->
+
+---
 layout: section
 ---
 

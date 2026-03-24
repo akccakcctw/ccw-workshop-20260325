@@ -119,6 +119,69 @@ Prompt 和上下文等等會實際練習；Artifacts 會解釋但不動手做
 
 ---
 
+# 上下文（Context）：最容易忽略的重點
+
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div>
+
+### 常見錯誤用法
+
+<div class="mt-3 flex flex-col gap-2 text-sm">
+<div class="p-2 bg-red-50 rounded">
+每個問題都<strong>開一個新對話</strong><br>
+<span class="opacity-60">→ AI 每次都從零開始，你要重複描述背景</span>
+</div>
+<div class="p-2 bg-red-50 rounded">
+同一個對話聊<strong>幾十輪不換</strong><br>
+<span class="opacity-60">→ 對話太長，AI 會「忘記」前面講的</span>
+</div>
+<div class="p-2 bg-red-50 rounded">
+不給背景就直接問問題<br>
+<span class="opacity-60">→ AI 只能猜你要什麼，結果很泛</span>
+</div>
+</div>
+
+</div>
+<div>
+
+### 正確的做法
+
+<div class="mt-3 flex flex-col gap-2 text-sm">
+<div class="p-2 bg-green-50 rounded">
+<strong>同一件事 → 同一個對話</strong><br>
+<span class="opacity-60">分析報表 → 追問細節 → 改格式，都在同一輪完成</span>
+</div>
+<div class="p-2 bg-green-50 rounded">
+<strong>換主題 → 開新對話</strong><br>
+<span class="opacity-60">寫完 Email 要分析數據，開新的比較乾淨</span>
+</div>
+<div class="p-2 bg-green-50 rounded">
+<strong>開頭先餵背景資料</strong><br>
+<span class="opacity-60">「我是行銷部的，負責日韓線，以下是這週的數據...」</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="mt-4 p-3 bg-blue-50 rounded-lg text-sm text-center">
+
+發現 AI 開始忘記前面講過的事？→ 請 AI「**幫我摘要這次對話的重點**」→ 複製摘要 → 貼到新對話開頭繼續
+
+</div>
+
+<!--
+「上下文是大家最容易忽略但最影響結果的概念。
+很多人每個問題都開新對話，等於每次都跟一個失憶的助理重新自我介紹。
+正確的做法是：同一件事在同一個對話裡追問、修改。
+但也不要一個對話聊一百輪，太長的話 AI 會忘記前面的內容。
+如果真的太長了，請 AI 摘要重點，貼到新對話開頭就好。
+另外，對話一開始先給背景資料——你的角色、目標、相關數據——
+AI 就能給出更精準的回答，而不是泛泛而談。」
+-->
+
+---
+
 # 你可能會聽到的名詞（1/2）
 
 <div class="mt-2 text-sm opacity-60 mb-6">不需要記住，知道是什麼就好</div>
@@ -312,13 +375,76 @@ layout: section
 
 ---
 
+# 選對模型：不是越貴越好
+
+<div class="mt-2 text-sm opacity-60 mb-4">右下角可以切換模型——不同模型擅長不同事</div>
+
+<div class="grid grid-cols-3 gap-5 text-sm">
+
+<div class="p-4 bg-amber-50 rounded-lg border-2 border-amber-200">
+<div class="text-base font-bold mb-2">Opus 4.6</div>
+<div class="text-xs opacity-60 mb-3">最聰明，但最慢</div>
+
+- 複雜分析、長篇報告
+- 需要深度推理的問題
+- 處理大量資料找規律
+
+<div class="mt-3 p-2 bg-white rounded text-xs">
+像請<strong>資深顧問</strong>出馬——慢工出細活
+</div>
+</div>
+
+<div class="p-4 bg-blue-50 rounded-lg border-2 border-blue-200">
+<div class="text-base font-bold mb-2">Sonnet 4.6 <span class="text-xs opacity-50">⭐ 推薦</span></div>
+<div class="text-xs opacity-60 mb-3">聰明又快，日常首選</div>
+
+- Email、文案、翻譯
+- 資料整理、摘要
+- 大部分日常工作
+
+<div class="mt-3 p-2 bg-white rounded text-xs">
+像請一個<strong>能力很強的助理</strong>——又快又好
+</div>
+</div>
+
+<div class="p-4 bg-green-50 rounded-lg border-2 border-green-200">
+<div class="text-base font-bold mb-2">Haiku 4.5</div>
+<div class="text-xs opacity-60 mb-3">最快，適合簡單任務</div>
+
+- 快速問答、查定義
+- 簡單翻譯、改錯字
+- 格式轉換
+
+<div class="mt-3 p-2 bg-white rounded text-xs">
+像問<strong>隔壁同事</strong>一個小問題——秒回
+</div>
+</div>
+
+</div>
+
+<div class="mt-4 p-3 bg-gray-50 rounded-lg text-sm text-center">
+
+不確定選哪個？→ 先用 **Sonnet 4.6**，覺得回答不夠好再換 **Opus 4.6**
+
+</div>
+
+<!--
+「右下角可以切換模型。很多人以為選最貴的就最好，其實不一定。
+Opus 最聰明但最慢，適合需要深度思考的複雜任務。
+Sonnet 是最推薦的日常選擇，又快又聰明，大部分工作都夠用。
+Haiku 最快，適合問個小問題、查個東西。
+不確定的話就先用 Sonnet，覺得不夠好再切 Opus。」
+-->
+
+---
+
 # Cowork 分頁：你的背景代理人
 
-<div class="grid grid-cols-2 gap-6">
+<div class="grid grid-cols-2 gap-4">
 <div>
-<img src="/screenshots/desktop-tabs-3.png" alt="Cowork 分頁介面" class="rounded-lg shadow-lg" style="max-height: 280px;" />
+<img src="/screenshots/desktop-tabs-3.png" alt="Cowork 分頁介面" class="rounded-lg shadow-lg" style="max-height: 240px;" />
 </div>
-<div class="text-sm">
+<div class="text-xs">
 
 **Chat vs Cowork**
 
@@ -332,9 +458,15 @@ layout: section
 </div>
 </div>
 
-<div class="mt-3 p-3 bg-purple-50 rounded-lg text-sm">
+<div class="mt-2 p-2 bg-purple-50 rounded-lg text-xs">
 
 **怎麼用**：點「Cowork」→ 選資料夾（Work in a folder）→ 描述任務 → 按「**Let's go**」→ 去喝杯咖啡
+
+</div>
+
+<div class="mt-2 p-2 bg-amber-50 rounded-lg text-xs">
+
+**還記得前面說的「上下文」嗎？** Chat 對話太長要手動複製摘要到新對話。Cowork 可以直接把重點**存成檔案**放在資料夾裡，下次自動就是上下文——不用複製貼上 ⭐
 
 </div>
 
@@ -342,7 +474,12 @@ layout: section
 「Cowork 是 Claude Desktop 最強大的功能。
 你交辦一個任務，它會自己翻閱資料夾、規劃步驟、產出檔案。
 你不用一直守在螢幕前，做完會通知你。
-Chat 是即時對話，Cowork 是委派任務。」
+Chat 是即時對話，Cowork 是委派任務。
+
+還記得前面講的上下文嗎？Chat 對話太長，你要手動摘要、複製、貼到新對話。
+但 Cowork 因為可以讀寫資料夾，你可以請它把重點整理成一份檔案存起來，
+下次開新對話時它自動就看得到，完全不用手動搬。
+這就是 Cowork 比 Chat 更適合處理長期、累積型任務的原因。」
 -->
 
 ---
